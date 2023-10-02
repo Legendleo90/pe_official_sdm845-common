@@ -62,3 +62,6 @@
 # Sockets
 /dev/socket/audio_hw_socket                   u:object_r:audio_socket:s0
 /dev/socket/gps                               u:object_r:gps_socket:s0
+
+# Recovery
+/dev/block/platform/soc/1d84000.ufshc/by-name/vendor   u:object_r:system_block_device:s0
